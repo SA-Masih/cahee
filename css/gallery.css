@@ -1,0 +1,81 @@
+.gallery {
+  background: #ffe92f; }
+  .gallery__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .gallery__content--h1 {
+      margin-bottom: 0;
+      font-size: 90px;
+      font-family: 'Raleway';
+      color: #262626; }
+    .gallery__content--p {
+      font-size: 17px;
+      line-height: 27px;
+      font-family: 'Raleway';
+      width: 600px;
+      text-align: center;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+      flex-direction: row-reverse;
+      margin-bottom: 48px; }
+  .gallery__box {
+    margin: -4px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    .gallery__box__knife {
+      margin-left: -4; }
+      .gallery__box__knife--img-kmife {
+        width: 100%; }
+    .gallery__box__two--fruit {
+      margin-top: 3px;
+      margin-bottom: -3px; }
+    .gallery__box__two--img1 {
+      width: 100%; }
+    .gallery__box__div {
+      margin-top: 23px; }
+      .gallery__box__div--img2 {
+        width: 100%; }
+    .gallery__box__water {
+      margin-top: 14px; }
+      .gallery__box__water--img3 {
+        width: 100%; }
+    .gallery__box__something {
+      margin-top: 14px; }
+      .gallery__box__something--img4 {
+        width: 100%; }
+    .gallery__box__button {
+      text-align: center;
+      margin-top: 49; }
+      .gallery__box__button--button {
+        padding: 10px;
+        padding-left: 44px;
+        padding-right: 44px;
+        outline: none;
+        border: none;
+        color: #fff;
+        background: #5585a2;
+        font-size: 20px;
+        margin-bottom: 113px; }

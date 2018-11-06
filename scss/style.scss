@@ -1,0 +1,50 @@
+@import "normalize";
+@import "home";
+@import "about";
+@import "services";
+@import "gallery";
+@import "subscribe";
+@import "blog";
+@import "contact";
+* {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+@font-face {
+    font-family: 'ralewayheavy';
+    src: url('../webfont/raleway-heavy-webfont.woff2') format('woff2'), url('raleway-heavy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+.footer {
+    background: #262626;
+    &__big-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+    }
+    &__box {
+        &--h4 {
+            color: #8a8a8a;
+            font-family: 'Raleway';
+            font-size: 16px;
+        }
+        &--img {
+            width: 100%;
+        }
+
+        &--span{
+            color:#bd2946;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.about {
+    background: #00b9b9;
+    &__main {
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    &__about-us {
+        flex: 1;
+        &--h1 {
+            text-align: center;
+            font-size: 90px;
+            font-family: 'ralewayheavy';
+            color: #fff;
+            margin: 0 auto;
+        }
+        &--p {
+            font-size: 17px;
+            line-height: 27px;
+            font-family: 'Raleway';
+            color: #ddf3f3;
+            margin: 0;
+            margin-left: 15%;
+        }
+    }
+    &__fruit {
+        flex: 1;
+        &--img {
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,67 @@
+.home {
+    background-image: url('../cahee-assets/background.png');
+    background-position: center;
+    background-size: cover;
+    &__header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+    &__logo {
+        width: 100%;
+    }
+    &__a {
+        color: #262626;
+        margin-left: 40px;
+    }
+    &__a--border {
+        border-top: 3px solid #ff6033;
+    }
+    &__content {
+        margin-top: 258px;
+        &--h2 {
+            font-size: 60px;
+            font-family: 'ralewayheavy';
+            color: #262626;
+            margin-bottom: 23px;
+        }
+        &--p {
+            font-size: 17px;
+            font-family: 'Raleway';
+            line-height: 27px;
+            margin: 0;
+            color: #262626;
+        }
+        &--button {
+            padding: 17px;
+            width: 200px;
+            border: none;
+            background: #ff6033;
+            color: #fff;
+            outline: none;
+            margin-top: 31px;
+            margin-bottom: 130px;
+            box-shadow: 4px 4px 13px 0px rgba(0, 0, 0, 0.75);
+            -webkit-box-shadow: 4px 4px 13px 0px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 4px 4px 13px 0px rgba(0, 0, 0, 0.75);
+        }
+    }
+    &__selector {
+        margin: 0 auto;
+        width: 2%;
+        
+        height: 5%;
+        border-radius: 20px;
+        border: 2px solid #2a2a2a;
+        &--line {
+            width: 1%;
+            height: 10px;
+            border: 1px solid #2a2a2a;
+            margin: 0 auto;
+        }
+        &--line:hover {
+            background: #2a2a2a;
+        }
+    }
+}

@@ -1,0 +1,61 @@
+.home {
+  background-image: url("../cahee-assets/img.png");
+  background-position: center;
+  background-size: cover; }
+  .home__header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap; }
+  .home__logo {
+    width: 100%; }
+  .home__a {
+    color: #262626;
+    margin-left: 40px; }
+  .home__a--border {
+    border-top: 3px solid #ff6033; }
+  .home__content {
+    margin-top: 258px; }
+    .home__content--h2 {
+      font-size: 60px;
+      font-family: 'ralewayheavy';
+      color: #262626;
+      margin-bottom: 23px; }
+    .home__content--p {
+      font-size: 17px;
+      font-family: 'Raleway';
+      line-height: 27px;
+      margin: 0;
+      color: #262626; }
+    .home__content--button {
+      padding: 17px;
+      width: 200px;
+      border: none;
+      background: #ff6033;
+      color: #fff;
+      outline: none;
+      margin-top: 31px;
+      margin-bottom: 130px;
+      box-shadow: 4px 4px 13px 0px rgba(0, 0, 0, 0.75);
+      -webkit-box-shadow: 4px 4px 13px 0px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 4px 4px 13px 0px rgba(0, 0, 0, 0.75); }
+  .home__selector {
+    margin: 0 auto;
+    width: 2%;
+    height: 5%;
+    border-radius: 20px;
+    border: 2px solid #2a2a2a; }
+    .home__selector--line {
+      width: 1%;
+      height: 10px;
+      border: 1px solid #2a2a2a;
+      margin: 0 auto; }
+    .home__selector--line:hover {
+      background: #2a2a2a; }

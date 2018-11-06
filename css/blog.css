@@ -1,0 +1,99 @@
+.blog {
+  background: #b07cf7; }
+  .blog__content {
+    text-align: center; }
+    .blog__content--h1 {
+      color: #fff;
+      font-size: 90px;
+      margin-bottom: 0;
+      font-family: 'Raleway'; }
+    .blog__content--p {
+      font-family: 'Raleway';
+      margin: 0;
+      line-height: 25px;
+      color: #e1d1fc;
+      font-size: 17px; }
+  .blog__box {
+    margin-top: 55px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row; }
+    .blog__box__box1 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      position: relative;
+      -webkit-box-align: start;
+      -ms-flex-align: start;
+      align-items: flex-start;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      .blog__box__box1--img {
+        width: 100%; }
+      .blog__box__box1--artical {
+        width: 70px;
+        background: #4d535b;
+        text-align: center;
+        opacity: 0.70;
+        height: 70px;
+        border-radius: 10px;
+        margin: 0 auto;
+        position: absolute;
+        margin-top: 40px;
+        margin-left: 30px; }
+      .blog__box__box1--h5 {
+        font-size: 27px;
+        margin: 0 auto;
+        color: #fff;
+        font-family: 'Raleway';
+        position: absolute; }
+    .blog__box--paragraph {
+      width: 310px;
+      text-align: left;
+      position: absolute;
+      display: inline-block;
+      margin-top: 46%;
+      margin-left: 6%; }
+    .blog__box--p {
+      color: #fff;
+      font-size: 20px;
+      font-family: 'Raleway';
+      position: absolute;
+      line-height: 25px;
+      font-weight: bold; }
+    .blog__box--ps {
+      position: absolute;
+      font-size: 13px;
+      font-family: 'Raleway';
+      color: #fff;
+      padding-top: 23%; }
+  .blog__button {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 118px; }
+    .blog__button--button {
+      padding: 14px;
+      width: 200px;
+      background: #f72b3b;
+      border: none;
+      outline: none;
+      font-size: 20px;
+      font-family: 'Raleway';
+      color: #fff; }

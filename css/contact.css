@@ -1,0 +1,66 @@
+.contact {
+  background-image: url("../cahee-assets/backgroundt.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .contact__content {
+    text-align: center; }
+    .contact__content--h1 {
+      font-size: 90px;
+      font-family: 'Raleway';
+      color: #262626;
+      margin-bottom: 0; }
+    .contact__content--p {
+      font-family: 'Raleway';
+      font-size: 17px;
+      color: #262626;
+      margin: 0;
+      line-height: 25px; }
+  .contact__box {
+    margin-top: 44px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin-bottom: 119px; }
+    .contact__box__form--input::-webkit-input-placeholder {
+      color: #fff; }
+    .contact__box__form--input:-ms-input-placeholder {
+      color: #fff; }
+    .contact__box__form--input::-ms-input-placeholder {
+      color: #fff; }
+    .contact__box__form--input::placeholder {
+      color: #fff; }
+    .contact__box__form--input {
+      display: block;
+      width: 500px;
+      padding: 14px;
+      margin: 10px;
+      font-size: 15px;
+      font-family: 'Raleway';
+      background: -webkit-gradient(linear, left top, right top, from(#28b3c7), to(#00c4c4));
+      background: -webkit-linear-gradient(left, #28b3c7, #00c4c4);
+      background: -o-linear-gradient(left, #28b3c7, #00c4c4);
+      background: linear-gradient(to right, #28b3c7, #00c4c4);
+      border: none;
+      outline: none;
+      color: #fff; }
+    .contact__box__form--textarea {
+      height: 248px; }
+  .contact__address--h5 {
+    font-size: 17px;
+    font-family: 'Raleway';
+    margin: 0;
+    line-height: 25px; }
+  .contact__address--p {
+    font-family: 'Raleway';
+    margin: 0;
+    line-height: 25px; }

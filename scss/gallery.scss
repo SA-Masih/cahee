@@ -1,0 +1,80 @@
+.gallery {
+    background: #ffe92f;
+    &__content {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &--h1 {
+            margin-bottom: 0;
+            font-size: 90px;
+            font-family: 'Raleway';
+            color: #262626;
+        }
+        &--p {
+            font-size: 17px;
+            line-height: 27px;
+            font-family: 'Raleway';
+            width: 600px;
+            text-align: center;
+            flex-direction: row-reverse;
+            margin-bottom: 48px;
+        }
+    }
+    &__box {
+        margin: -4px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+        &__knife {
+            margin-left: -4;
+            &--img-kmife {
+                width: 100%;
+            }
+        }
+        &__two {
+            &--fruit {
+                margin-top: 3px;
+                margin-bottom: -3px;
+            }
+            &--img1 {
+                width: 100%;
+            }
+        }
+        &__div {
+            margin-top: 23px;
+            &--img2 {
+                width: 100%;
+            }
+        }
+        &__water {
+            margin-top: 14px;
+            &--img3 {
+                width: 100%;
+            }
+        }
+        &__something {
+            margin-top: 14px;
+            &--img4 {
+                width: 100%;
+            }
+        }
+        &__button {
+            text-align: center;
+            margin-top: 49;
+            &--button {
+                padding: 10px;
+                padding-left: 44px;
+                padding-right: 44px;
+                outline: none;
+                border: none;
+                color: #fff;
+                background: #5585a2;
+                font-size: 20px;
+                margin-bottom: 113px;
+            }
+        }
+    }
+}

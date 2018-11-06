@@ -1,0 +1,36 @@
+.subscribe {
+  background-image: url("../cahee-assets/bg.png");
+  background-position: center;
+  background-size: cover; }
+  .subscribe__big-box {
+    margin-top: 134px;
+    margin-bottom: 163px; }
+  .subscribe__content--h3 {
+    font-size: 40px;
+    font-family: 'Raleway';
+    color: #262626; }
+  .subscribe__content--p {
+    font-family: 'Raleway';
+    font-size: 17px;
+    color: #555555;
+    width: 600px;
+    margin-top: -31;
+    line-height: 27px; }
+  .subscribe__form--input {
+    padding: 12px;
+    width: 550px;
+    border: 1px solid #000;
+    outline: none;
+    font-size: 15px;
+    color: #aaaaaa;
+    font-family: 'Raleway';
+    background: none; }
+  .subscribe__form--button {
+    font-family: 'Raleway';
+    font-size: 20px;
+    border: none;
+    padding: 10px;
+    background: #96b92c;
+    outline: none;
+    color: #fff;
+    margin-left: 27px; }

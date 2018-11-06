@@ -1,0 +1,63 @@
+.contact {
+    background-image: url('../cahee-assets/backgroundt.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    &__content {
+        text-align: center;
+        &--h1 {
+            font-size: 90px;
+            font-family: 'Raleway';
+            color: #262626;
+            margin-bottom: 0;
+        }
+        &--p {
+            font-family: 'Raleway';
+            font-size: 17px;
+            color: #262626;
+            margin: 0;
+            line-height: 25px;
+        }
+    }
+    &__box {
+        margin-top: 44px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+        flex-direction: row;
+        margin-bottom: 119px;
+        &__form {
+            &--input::placeholder {
+                color: #fff;
+            }
+            &--input {
+                display: block;
+                width: 500px;
+                padding: 14px;
+                margin: 10px;
+                font-size: 15px;
+                font-family: 'Raleway';
+                background: linear-gradient(to right, #28b3c7, #00c4c4);
+                border: none;
+                outline: none;
+                color: #fff;
+            }
+            &--textarea {
+                height: 248px;
+            }
+        }
+    }
+    &__address {
+        &--h5 {
+            font-size: 17px;
+            font-family: 'Raleway';
+            margin: 0;
+            line-height: 25px;
+        }
+        &--p {
+            font-family: 'Raleway';
+            margin: 0;
+            line-height: 25px;
+        }
+    }
+}
