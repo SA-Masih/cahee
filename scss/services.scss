@@ -2,7 +2,7 @@
     background: #70bfff;
     &__box {
         background-position: right;
-        background-repeat: no-repeat, repeat;
+        background-repeat: no-repeat;
         background-image: url('../cahee-assets/group1.png');
         display: flex;
         align-items: center;
@@ -56,6 +56,53 @@
             color: #fff;
             font-size: 90px;
             font-family: 'Raleway';
+        }
+    }
+}
+@media screen and (max-width: 992px) {
+    .services {
+        &__box {
+            background-position: center;
+
+        }
+        &__nav {
+            order: 2;
+            margin-top: 0;
+            margin-bottom: 50px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        &__content {
+            order: 1;
+            width: 100%;
+            text-align: center;
+        }
+    }
+}
+@media only screen and (max-width: 500px) {
+    .services {
+        &__box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            align-content: center;
+            flex-direction: column;
+        }
+        &__nav {
+            margin-top: 0;
+            order: 2;
+            &--a {
+                margin-left: 0 auto;
+                margin-right: 0 auto;
+            }
+        }
+        &__content {
+            order: 1;
+            &--h1 {
+                color: #fff;
+                font-size: 50px;
+                font-family: 'Raleway';
+            }
         }
     }
 }

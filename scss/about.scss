@@ -1,3 +1,5 @@
+$about-title: 120px;
+
 .about {
     background: #00b9b9;
     &__main {
@@ -6,7 +8,7 @@
         flex-wrap: nowrap;
     }
     &__about-us {
-        flex: 1;
+        flex: 1 1 0;
         &--h1 {
             text-align: center;
             font-size: 90px;
@@ -24,9 +26,64 @@
         }
     }
     &__fruit {
-        flex: 1;
+        flex: 1 1 0;
         &--img {
             width: 100%;
         }
+    }
+}
+@media only screen and (max-width: 360px) {
+    .about {
+        padding: 10px;
+        margin-top: -70px;
+        &__fruit {
+            order: 3;
+            &--img {}
+        }
+        &__main {
+            display: flex;
+            flex-direction: column;
+        }
+        &__about-us {
+            &--h1 {
+                order: 1;
+            }
+            &--p {
+                order: 2;
+                text-align: left;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .about {
+        padding: 10px;
+        margin-top: -70px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .about {
+        position: relative;
+        padding-top: $about-title;
+        padding-bottom: 50px;
+        &__about-us {
+        flex: 2 1 0;
+         &--h1{
+             position: absolute;
+             text-align: center;
+             top: 0;
+             left: 0;
+             right: 0;
+             font-size: 70px;
+             line-height: $about-title * 1.3;
+         }
+        }
+        &__fruit {
+        &--img {
+            width: 120%;
+        }
+    }
+
     }
 }

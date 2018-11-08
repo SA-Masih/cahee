@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'ralewayheavy';
+    src: url('../webfont/raleway-heavy-webfont.woff2') format('woff2'), url('../webfont/raleway-heavy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 @import "normalize";
 @import "home";
 @import "about";
@@ -42,9 +48,21 @@ a {
         &--img {
             width: 100%;
         }
-
-        &--span{
-            color:#bd2946;
+        &--span {
+            color: #bd2946;
         }
+    }
+}
+@media screen and (max-width: 576px) {
+    .footer {
+        margin-top: -1;
+        &__big-box {
+            flex-direction: column;
+        }
+    }
+}
+.no-flexbox {
+    .home {
+        display: inline-block;
     }
 }

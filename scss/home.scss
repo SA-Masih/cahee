@@ -10,10 +10,12 @@
     }
     &__logo {
         width: 100%;
+        max-width: 100px;
     }
     &__a {
         color: #262626;
         margin-left: 40px;
+        padding-top: 5px;
     }
     &__a--border {
         border-top: 3px solid #ff6033;
@@ -38,6 +40,7 @@
             width: 200px;
             border: none;
             background: #ff6033;
+            cursor: pointer;
             color: #fff;
             outline: none;
             margin-top: 31px;
@@ -50,7 +53,6 @@
     &__selector {
         margin: 0 auto;
         width: 2%;
-        
         height: 5%;
         border-radius: 20px;
         border: 2px solid #2a2a2a;
@@ -62,6 +64,93 @@
         }
         &--line:hover {
             background: #2a2a2a;
+        }
+    }
+    &__burger {
+        display: none;
+    }
+}
+@media only screen and (max-width: 798px) {
+    .home {
+        text-align: center;
+        margin-bottom: 10px;
+        &__content {
+            margin-top: 80px;
+            &--button {
+                margin-bottom: 60px;
+            }
+        }
+        &__header {
+            display: block;
+        }
+        &__logo {
+            display: block;
+            width: 30%;
+            margin: 0 auto;
+            margin-bottom: 50px;
+        }
+        &__a {
+            margin: 5px;
+            border-top: 1px solid #aaa;
+        }
+        &__selector {
+            width: 30px;
+            height: 50px;
+            margin-bottom: 90px;
+        }
+    }
+}
+@media only screen and (max-width: 576px) {
+    .home {
+        text-align: center;
+        margin-bottom: 10px;
+        &__content {
+            margin-top: 100px;
+            &--button {
+                margin-bottom: 60px;
+            }
+        }
+        &__header {}
+        &__logo {
+            display: block;
+            width: 100%;
+            margin: 0 auto;
+            
+        }
+        &__a {
+            margin: 15px 0;
+            padding-top: 15px;
+            display: block;
+        }
+        &__selector {
+            width: 30px;
+            height: 50px;
+            margin-bottom: 90px;
+        }
+        &__nav {
+            display: none;
+            width: 100%;
+            clear: right;
+            padding-top: 20px;
+        }
+        &__img {
+            float: left;
+        }
+        &__burger {
+            display: initial;
+            display: none;
+            &-i {
+                float: right;
+            }
+            &-icon {
+                width: 28px;
+                height: 3px;
+                margin-bottom: 8px;
+                background: #333;
+            }
+            &:checked+.home__nav {
+                display: inherit;
+            }
         }
     }
 }
