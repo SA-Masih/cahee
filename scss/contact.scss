@@ -25,7 +25,7 @@
         align-items: flex-start;
         justify-content: space-around;
         margin-bottom: 100px;
-        @media (max-width: 992px){
+        @media (max-width: 992px) {
             flex-wrap: wrap;
         }
         &__form {
@@ -34,9 +34,8 @@
             }
             &--input {
                 display: block;
-                @media (max-width: 500px){
+                @media (max-width: 500px) {
                     max-width:300px;
-                    
                 }
                 width: 500px;
                 padding: 14px;
@@ -50,10 +49,9 @@
             }
             &--textarea {
                 height: 248px;
-                 @media (max-width: 500px){
-                     text-align: left;
-                 }
-                
+                @media (max-width: 500px) {
+                    text-align: left;
+                }
             }
         }
     }
@@ -69,6 +67,5 @@
             margin: 0;
             line-height: 25px;
         }
-     
     }
 }
